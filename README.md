@@ -24,3 +24,8 @@ express js auth with mongo js
 - localhost:3000/users/:userID
     - rewuires a valid JWT
     - gets one user and returns it
+- localhost:3000/users/refresh
+    - POST
+    - require a valid JWT header
+    - checks a JWT and provides a new one if its;s valid
+    - returns a JWT
