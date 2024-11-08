@@ -3,7 +3,7 @@ require("dotenv").config();
 // dotenv.config();
 
 // module.exports = { app }
-const { dbConnect } = require("./functions/dbFunctions.js");
+const { dbConnect } = require("./functions/dbFunction.js");
 const {app} = require("./server.js");
 
 // module.exports = app;
